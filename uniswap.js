@@ -2,10 +2,10 @@
 const { ChainId, Fetcher, WETH, Route, Trade, TokenAmount, TradeType, Percent } = require('@uniswap/sdk');
 const ethers = require('ethers');
 
-const chainId = ChainId.MAINNET;
+const chainId = ChainId.ROPSTEN;
 
 console.log("ChainID: ", chainId );
-const tokenAddress = '0x6B175474E89094C44Da98b954EedeAC495271d0F';
+const tokenAddress = '0xaD6D458402F60fD3Bd25163575031ACDce07538D'; //'0x6B175474E89094C44Da98b954EedeAC495271d0F';
 
 const init = async () => {
     console.log("init");
